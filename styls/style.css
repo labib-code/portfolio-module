@@ -213,9 +213,9 @@ main section {
 
 .resume-item-title {
     color: #474747;
-    
+
     font-size: 25px;
-    
+
     font-weight: 700;
     line-height: normal;
     margin-bottom: 10px;
@@ -224,14 +224,41 @@ main section {
 
 
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
-footer{
+footer {
     display: flex;
     background-color: #FFF8F3;
     margin-top: 0px;
     padding: 50px 50px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+    padding: 0 50px;
+}
+
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.section-title{
+    
 }
