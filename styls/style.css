@@ -69,7 +69,7 @@ nav a {
 
     font-size: 18px;
     font-weight: 400;
-    
+
 }
 
 .header {
@@ -123,4 +123,41 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #757575;
+    margin-top: 30px ;
+
+
+font-size: 15px;
+
+font-weight: 400;
+
+}
+
+/* .about-info{ */
+/* text-align: center; */
+
+.about-info {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#whatidodes{
+    padding: 30px 150px;
 }
